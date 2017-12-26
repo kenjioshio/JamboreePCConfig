@@ -175,7 +175,7 @@ Describe ":Check Environment Variables of this PC."{
         }
 
 
-        #環境変数'VS120COMNTOOLS'が存在してることを確認してからその値を確認
+        #環境変数'JAVA_HOME'が存在してることを確認してからその値を確認
         It "'JAVA_HOME' envirnment variable should be exist in this PC."{
             $result =$false
             foreach($ev in $envVarObj){ 
