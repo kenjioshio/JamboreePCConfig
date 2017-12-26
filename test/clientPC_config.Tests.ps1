@@ -23,7 +23,7 @@ Describe ":Checking whether Tools installation and the configuration of this PC 
         }
     }
     Context ":Check 'NUnit' Installation and Configuration."{
-        It "'NUnit.exe Ver2.6.4' should be exist in 'C:\Program Files (x86)\NUnit 2.6.4\bin'."{
+        It "'NUnit.exe Ver2.6.4' should be exist in 'C:\Program Files\NUnit 2.6.4\bin'."{
             "C:\Program Files\NUnit 2.6.4\bin\nunit.exe" | Should Exist
         }
 
